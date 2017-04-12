@@ -1,9 +1,8 @@
 {
-  "name": "webpack_typescript",
-  "version": "1.0.0",
+  "name": "webpack_typescript_project_seed",
+  "version": "0.0.1",
   "description": "Webpack + TypeScript",
-  "main": "app.js",
-  "author": "Shane Osbourne and John Lindquist",
+  "author": "Ronnie Schaniel",
   "license": "MIT",
   "scripts": {
     "build.dev": "gulp serve.dev",
