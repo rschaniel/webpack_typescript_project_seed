@@ -1,11 +1,10 @@
-type Person = {
-    name:string
-}
+import {Person} from './person';
 
-const sayHi = ({name}:Person)=> {
-    document.querySelector('#example').textContent = `
-        Hi, ${name}
-    `
+
+export const sayHi = ({name}:Person)=> {
+    if(document.querySelector('#example') !== null) {
+        document.querySelector('#example').textContent = `Hello, ${name}`
+    }
 };
 
-sayHi({name: "how are you?"});
+sayHi({name: "World"});

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/webpack.typescript.iml" filepath="$PROJECT_DIR$/.idea/webpack.typescript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/webpack_typescript_project_seed.iml" filepath="$PROJECT_DIR$/.idea/webpack_typescript_project_seed.iml" />
     </modules>
   </component>
 </project>

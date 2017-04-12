@@ -1,16 +1,23 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": false,
-        "outDir": "dist",
-        "rootDir": ".",
-        "sourceMap": false,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "moduleResolution": "node"
-    },
-    "exclude": [
-        "node_modules"
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "types": [
+      "jasmine"
     ]
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "!node_modules/@types"
+  ]
 }

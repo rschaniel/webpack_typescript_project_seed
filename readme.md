@@ -1,5 +1,10 @@
 # Webpack Typescript Project Seed
 
+Provides the following features
+- Compiling and bundling of Typescript and SASS for development and production
+- Development with livereload
+- Testing with Karma and Jasmine
+
 ## Getting Started
 
 ```bash
@@ -17,4 +22,9 @@ npm run build.dev
 ```bash
 # create production bundle
 npm run build.prod
+```
+
+```bash
+# execute the tests
+npm run test
 ```

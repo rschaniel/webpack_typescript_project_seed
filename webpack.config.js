@@ -31,7 +31,8 @@ module.exports = {
         rules: [
             {
                 test: /\.ts$/,
-                loader: 'ts-loader'
+                loader: 'ts-loader',
+                exclude: /\.spec.ts$/
             },
             {
                 test: /\.scss$/,
@@ -43,9 +44,3 @@ module.exports = {
         ]
     }
 };
-
-
-
-
-
-
